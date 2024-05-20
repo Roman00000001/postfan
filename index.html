@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт постов</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Postfan</h1>
+    </header>
+
+    <main>
+        <div id="post-form">
+            <h2>Создать пост</h2>
+            <textarea id="post-text" placeholder="Введите текст поста"></textarea>
+            <input type="file" id="post-image" accept="image/jpeg,image/png">
+            <button id="add-post-button">Опубликовать</button>
+        </div>
+
+        <div id="posts-container">
+            <h2>Все посты</h2>
+            <ul id="posts-list"></ul>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <a href="https://t.me/CyberTechInnovations" target="_blank">
+                <img src="tg.jpg" alt="Telegram">
+            </a>
+            <a href="https://discord.com/invite/QhjUqqwH" target="_blank">
+                <img src="ds.jpg" alt="Discord">
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
